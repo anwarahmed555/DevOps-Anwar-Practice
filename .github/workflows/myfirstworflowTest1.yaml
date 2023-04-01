@@ -13,7 +13,7 @@ jobs:
               - name: Step one
                 uses: actions/checkout@v3
               - name: Step Two
-                run: |
+                run: | 
                   touch newfile.yaml
                   echo "Please Guys its Friday" >> newfile.yaml
                   cat newfile.yaml
